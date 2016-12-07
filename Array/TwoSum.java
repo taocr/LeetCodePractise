@@ -8,7 +8,7 @@ import java.util.HashMap;
  * Given an array of integers, return indices of the two numbers such that they add up to a specific target.
  * You may assume that each input would have exactly one solution.
  *
- * 给定一个整数数组，返回两个数的角标使得两者假期来能够得到一个指定的数，你可以假设每个输入的值只有一个唯一的解
+ * 给定一个整数数组，返回两个数的角标使得两者之和能够得到一个指定的数，你可以假设每个输入的值只有一个唯一的解
  *
  * 思路：
  * 1、动态规划，不过跟暴力破解的方法没什么区别，与其向nums[i]+nums[j]=target，不如反过来想即nums[j] = target-nums[i]，对于target知道了，遍历数组可以获得每个元素的数，

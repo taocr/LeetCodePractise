@@ -7,8 +7,8 @@ import java.util.Arrays;
  */
 public class Test {
     public static void main(String[] args){
-        int[] nums = {2, 3, 6, 7};
-        int target = 7;
-        CombinationSum.combinationSum(nums, target);
+//        int[] nums = {-2, 0, 0, 2 , 2};
+        int[] nums = {-1, 0, 1, 2, -1, -4};
+        ThreeSum.threeSum2(nums);
     }
 }
