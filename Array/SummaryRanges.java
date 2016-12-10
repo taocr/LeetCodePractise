@@ -17,7 +17,7 @@ import java.util.List;
  * 且连续的两次for循环,i的值由于while循环内部i++的存在也不一定是相差1的关系
  *
  * 更好的思路：
- * 1、大部分的思路都差不多
+ * 大部分的思路都差不多
  * Created by Taocr on 2016/12/8.
  */
 public class SummaryRanges {
