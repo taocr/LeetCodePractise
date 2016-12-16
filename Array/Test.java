@@ -7,8 +7,7 @@ import java.util.Arrays;
  */
 public class Test {
     public static void main(String[] args){
-//        int[] nums = {-2, 0, 0, 2 , 2};
-        int[] nums = {9};
-        PlusOne.plusOne(nums);
+        int[] nums = {3, 4, -1, 1};
+        FirstMissingPositive.firstMissingPositive(nums);
     }
 }
